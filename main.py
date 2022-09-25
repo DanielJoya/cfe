@@ -45,15 +45,20 @@ select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
 select_month = Select(select_element)
 months = GetDataFromSelect(select_month)
 
-# Extract data
+# Get tariff name, description, type of charge and units
+select_month.select_by_visible_text(months[0]) # Select the first month
+table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
+tariffData = table[table.columns[:-1]]
+
+#%% Extract data
 prices = pd.DataFrame()
+
 for month in months:
     select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
     select_month = Select(select_element)
     select_month.select_by_visible_text(month) # Select the first month
     table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
     prices[month] = table.iloc[:,-1]
-    
 
 #%% Manipulate data
 
