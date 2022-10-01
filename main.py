@@ -22,44 +22,60 @@ driver.maximize_window() # Maximize window
 
 driver.get("https://app.cfe.mx/Aplicaciones/CCFE/Tarifas/TarifasCRENegocio/Tarifas/PequenaDemandaBT.aspx")
 
-# Select states
-select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddEstado')
-select_states = Select(select_element)
-states = GetDataFromSelect(select_states)
-select_states.select_by_index(1) # Select the first state
+prices = pd.DataFrame()
 
-# Select towns
-select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddMunicipio')
-select_towns = Select(select_element)
-towns = GetDataFromSelect(select_towns)
-select_towns.select_by_index(1) # Select the first town
-
-# Select divisions
-select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddDivision')
-select_divisions = Select(select_element)
-divisions = GetDataFromSelect(select_divisions)
-select_divisions.select_by_index(1) # Select the first division
-
-# Select month
+# Get months
 select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
 select_month = Select(select_element)
 months = GetDataFromSelect(select_month)
 
-# Get tariff name, description, type of charge and units
-select_month.select_by_visible_text(months[0]) # Select the first month
-table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
-tariffData = table[table.columns[:-1]]
+# Get states
+select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddEstado')
+select_state = Select(select_element)
+states = GetDataFromSelect(select_state)
 
-#%% Extract data
-prices = pd.DataFrame()
+for state in states:
+    select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddEstado')
+    select_state = Select(select_element)
+    select_state.select_by_visible_text(state)
 
-for month in months:
-    select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
-    select_month = Select(select_element)
-    select_month.select_by_visible_text(month) # Select the first month
-    table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
-    prices[month] = table.iloc[:,-1]
+    # Get towns
+    select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddMunicipio')
+    select_town = Select(select_element)
+    towns = GetDataFromSelect(select_town)
 
-#%% Manipulate data
+    for town in towns:
+        select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddMunicipio')
+        select_town = Select(select_element)
+        select_town.select_by_visible_text(town)
 
+        # Get divisions
+        select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddDivision')
+        select_division = Select(select_element)
+        divisions = GetDataFromSelect(select_division)
 
+        for division in divisions:
+            select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddDivision')
+            select_division = Select(select_element)
+            select_division.select_by_visible_text(division)
+
+            # Extract data
+            divisionPrices = pd.DataFrame()
+            for month in months:
+                select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
+                select_month = Select(select_element)
+                select_month.select_by_visible_text(month)
+                    
+                table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
+                
+                if month == months[0]:
+                    divisionPrices = table.iloc[:,:4]
+                    divisionPrices['Estado'] = state
+                    divisionPrices['Municipio'] = town
+                    divisionPrices['Division'] = division
+
+                divisionPrices[month] = table.iloc[:,-1]
+
+            prices = pd.concat([prices, divisionPrices], ignore_index=True)
+
+prices.to_csv("pdbt.csv")
