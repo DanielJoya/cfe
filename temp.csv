@@ -1,0 +1,65 @@
+Tarifa,Descripción,Cargo,Unidades,Estado,Municipio,Division,ENERO
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,AGUASCALIENTES,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,AGUASCALIENTES,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,ASIENTOS,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,ASIENTOS,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,CALVILLO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,CALVILLO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,COSIO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,COSIO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,EL LLANO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,EL LLANO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,JESUS MARIA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,JESUS MARIA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,PABELLON DE ARTEAGA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,PABELLON DE ARTEAGA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,RINCON DE ROMOS,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,RINCON DE ROMOS,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,SAN FRANCISCO DE LOS ROMO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,SAN FRANCISCO DE LOS ROMO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,SAN JOSE DE GRACIA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,SAN JOSE DE GRACIA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,TEPEZALA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,TEPEZALA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,ENSENADA,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,ENSENADA,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,MEXICALI,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,MEXICALI,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,PLAYAS DE ROSARITO,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,PLAYAS DE ROSARITO,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,TECATE,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,TECATE,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,TIJUANA,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,TIJUANA,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,COMONDU,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,COMONDU,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LA PAZ,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LA PAZ,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LORETO,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LORETO,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LOS CABOS,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LOS CABOS,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,MULEGE,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,MULEGE,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CALAKMUL,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CALAKMUL,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CALKINI,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CALKINI,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CAMPECHE,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CAMPECHE,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CANDELARIA,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CANDELARIA,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CARMEN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CARMEN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CHAMPOTON,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CHAMPOTON,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,ESCARCEGA,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,ESCARCEGA,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,HECELCHAKAN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,HECELCHAKAN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,HOPELCHEN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,HOPELCHEN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,PALIZADA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,PALIZADA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,TENABO,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,TENABO,PENINSULAR,3.757
