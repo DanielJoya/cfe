@@ -12,6 +12,7 @@ import pandas as pd
 
 # Local imports
 from functions import GetDataFromSelect
+from extractMonth import extract_month
 
 # Initial request
 options = Options()
@@ -39,77 +40,6 @@ except:
 
 # Scrape only if the last month has not been extracted
 if lastMonthIndex < len(months) - 1:
-
-    # Initializing dataframes
-    filters = pd.DataFrame()
-
-    try:
-        temp = pd.read_csv('temp.csv')
-    except:
-        temp = pd.DataFrame()
-
-    # Get states
-    select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddEstado')
-    select_state = Select(select_element)
-    states = GetDataFromSelect(select_state)
-
     for month in months[lastMonthIndex+1:]:
-        select_element = driver.find_element(By.ID,'ContentPlaceHolder1_Fecha2_ddMes')
-        select_month = Select(select_element)
-        select_month.select_by_visible_text(month)
+        prices = extract_month(month)
 
-        monthPrices = pd.DataFrame()
-
-        for state in states:
-            select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddEstado')
-            select_state = Select(select_element)
-            select_state.select_by_visible_text(state)
-
-            # Get towns
-            select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddMunicipio')
-            select_town = Select(select_element)
-            towns = GetDataFromSelect(select_town)
-            #lastTownIndex = towns.index(lastTown) + 1
-
-            for town in towns:
-                select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddMunicipio')
-                select_town = Select(select_element)
-                select_town.select_by_visible_text(town)
-
-                # Get divisions
-                select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddDivision')
-                select_division = Select(select_element)
-                divisions = GetDataFromSelect(select_division)
-                #lastDivisionIndex = divisions.index(lastDivision) + 1
-
-                for division in divisions:
-                    select_element = driver.find_element(By.ID,'ContentPlaceHolder1_EdoMpoDiv_ddDivision')
-                    select_division = Select(select_element)
-                    select_division.select_by_visible_text(division)
-
-                    # Extract data
-                    divisionFilters = pd.DataFrame()
-                    divisionPrices = pd.DataFrame()
-                            
-                    table = pd.read_html(driver.find_element(By.XPATH, '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table').get_attribute('outerHTML'))[0]
-                    
-                    if month == months[0]:
-                        prices = pd.DataFrame()
-                        divisionFilters = table.iloc[:,:4]
-                        divisionFilters['Estado'] = state
-                        divisionFilters['Municipio'] = town
-                        divisionFilters['Division'] = division
-                        filters = pd.concat([filters, divisionFilters], ignore_index=True)
-
-                    divisionPrices[month] = table.iloc[:,-1]
-
-                    monthPrices = pd.concat([monthPrices, divisionPrices], ignore_index=True)
-
-        lastStateIndex = 0
-
-        if month == months[0]:
-            prices = pd.concat([filters, monthPrices])
-        else:
-            prices = pd.concat([prices, monthPrices])
-
-    prices.to_csv("pdbt.csv")
