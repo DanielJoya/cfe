@@ -1,0 +1,301 @@
+Tarifa,Descripción,Cargo,Unidades,Estado,Municipio,Division,ENERO
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,AGUASCALIENTES,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,AGUASCALIENTES,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,ASIENTOS,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,ASIENTOS,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,CALVILLO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,CALVILLO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,COSIO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,COSIO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,EL LLANO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,EL LLANO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,JESUS MARIA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,JESUS MARIA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,PABELLON DE ARTEAGA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,PABELLON DE ARTEAGA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,RINCON DE ROMOS,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,RINCON DE ROMOS,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,SAN FRANCISCO DE LOS ROMO,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,SAN FRANCISCO DE LOS ROMO,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,SAN JOSE DE GRACIA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,SAN JOSE DE GRACIA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,AGUASCALIENTES,TEPEZALA,BAJÍO,27.78
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,AGUASCALIENTES,TEPEZALA,BAJÍO,3.605
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,ENSENADA,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,ENSENADA,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,MEXICALI,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,MEXICALI,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,PLAYAS DE ROSARITO,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,PLAYAS DE ROSARITO,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,TECATE,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,TECATE,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA,TIJUANA,BAJA CALIFORNIA,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA,TIJUANA,BAJA CALIFORNIA,2.388
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,COMONDU,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,COMONDU,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LA PAZ,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LA PAZ,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LORETO,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LORETO,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,LOS CABOS,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,LOS CABOS,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,BAJA CALIFORNIA SUR,MULEGE,BAJA CALIFORNIA SUR,53.58
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,BAJA CALIFORNIA SUR,MULEGE,BAJA CALIFORNIA SUR,3.637
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CALAKMUL,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CALAKMUL,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CALKINI,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CALKINI,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CAMPECHE,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CAMPECHE,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CANDELARIA,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CANDELARIA,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CARMEN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CARMEN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,CHAMPOTON,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,CHAMPOTON,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,ESCARCEGA,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,ESCARCEGA,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,HECELCHAKAN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,HECELCHAKAN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,HOPELCHEN,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,HOPELCHEN,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,PALIZADA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,PALIZADA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CAMPECHE,TENABO,PENINSULAR,41.06
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CAMPECHE,TENABO,PENINSULAR,3.757
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ACACOYAGUA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ACACOYAGUA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ACALA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ACALA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ACAPETAHUA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ACAPETAHUA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ALDAMA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ALDAMA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ALTAMIRANO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ALTAMIRANO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,AMATAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,AMATAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,AMATENANGO DE LA FRONTERA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,AMATENANGO DE LA FRONTERA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,AMATENANGO DEL VALLE,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,AMATENANGO DEL VALLE,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ANGEL ALBINO CORZO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ANGEL ALBINO CORZO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ARRIAGA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ARRIAGA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,BEJUCAL DE OCAMPO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,BEJUCAL DE OCAMPO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,BELLA VISTA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,BELLA VISTA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,BENEMERITO DE LAS AMERICAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,BENEMERITO DE LAS AMERICAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,BERRIOZABAL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,BERRIOZABAL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,BOCHIL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,BOCHIL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CACAHOATAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CACAHOATAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CATAZAJA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CATAZAJA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHALCHIHUITAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHALCHIHUITAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHAMULA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHAMULA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHANAL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHANAL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHAPULTENANGO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHAPULTENANGO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHENALHO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHENALHO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHIAPA DE CORZO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHIAPA DE CORZO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHIAPILLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHIAPILLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHICOASEN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHICOASEN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHICOMUSELO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHICOMUSELO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CHILON,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CHILON,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,CINTALAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,CINTALAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,COAPILLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,COAPILLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,COMITAN DE DOMINGUEZ,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,COMITAN DE DOMINGUEZ,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,COPAINALA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,COPAINALA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,EL BOSQUE,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,EL BOSQUE,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,EL PORVENIR,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,EL PORVENIR,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ESCUINTLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ESCUINTLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,FRANCISCO LEON,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,FRANCISCO LEON,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,FRONTERA COMALAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,FRONTERA COMALAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,FRONTERA HIDALGO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,FRONTERA HIDALGO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,HUEHUETAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,HUEHUETAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,HUITIUPAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,HUITIUPAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,HUIXTAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,HUIXTAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,HUIXTLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,HUIXTLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,IXHUATAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,IXHUATAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,IXTACOMITAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,IXTACOMITAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,IXTAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,IXTAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,IXTAPANGAJOYA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,IXTAPANGAJOYA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,JIQUIPILAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,JIQUIPILAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,JITOTOL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,JITOTOL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,JUAREZ,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,JUAREZ,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LA CONCORDIA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LA CONCORDIA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LA GRANDEZA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LA GRANDEZA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LA INDEPENDENCIA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LA INDEPENDENCIA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LA LIBERTAD,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LA LIBERTAD,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LA TRINITARIA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LA TRINITARIA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LARRAINZAR,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LARRAINZAR,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LAS MARGARITAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LAS MARGARITAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,LAS ROSAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,LAS ROSAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MAPASTEPEC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MAPASTEPEC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MARAVILLA TENEJAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MARAVILLA TENEJAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MARQUES DE COMILLAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MARQUES DE COMILLAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MAZAPA DE MADERO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MAZAPA DE MADERO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MAZATAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MAZATAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,METAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,METAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MITONTIC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MITONTIC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MONTECRISTO DE GUERRERO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MONTECRISTO DE GUERRERO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,MOTOZINTLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,MOTOZINTLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,NICOLAS RUIZ,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,NICOLAS RUIZ,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OCOSINGO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OCOSINGO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OCOTEPEC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OCOTEPEC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OCOZOCOAUTLA DE ESPINOSA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OCOZOCOAUTLA DE ESPINOSA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OSTUACAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OSTUACAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OSUMACINTA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OSUMACINTA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,OXCHUC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,OXCHUC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PALENQUE,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PALENQUE,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PANTELHO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PANTELHO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PANTEPEC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PANTEPEC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PICHUCALCO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PICHUCALCO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PIJIJIAPAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PIJIJIAPAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,PUEBLO NUEVO SOLISTAHUACAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,PUEBLO NUEVO SOLISTAHUACAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,RAYON,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,RAYON,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,REFORMA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,REFORMA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SABANILLA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SABANILLA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SALTO DE AGUA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SALTO DE AGUA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SAN ANDRES DURAZNAL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SAN ANDRES DURAZNAL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SAN CRISTOBAL DE LAS CASAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SAN CRISTOBAL DE LAS CASAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SAN FERNANDO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SAN FERNANDO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SAN JUAN CANCUC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SAN JUAN CANCUC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SAN LUCAS,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SAN LUCAS,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SANTIAGO EL PINAR,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SANTIAGO EL PINAR,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SILTEPEC,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SILTEPEC,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SIMOJOVEL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SIMOJOVEL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SITALA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SITALA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SOCOLTENANGO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SOCOLTENANGO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SOLOSUCHIAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SOLOSUCHIAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SOYALO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SOYALO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SUCHIAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SUCHIAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SUCHIATE,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SUCHIATE,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,SUNUAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,SUNUAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TAPACHULA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TAPACHULA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TAPALAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TAPALAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TAPILULA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TAPILULA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TECPATAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TECPATAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TENEJAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TENEJAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TEOPISCA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TEOPISCA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TILA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TILA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TONALA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TONALA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TOTOLAPA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TOTOLAPA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TUMBALA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TUMBALA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TUXTLA CHICO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TUXTLA CHICO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TUXTLA GUTIERREZ,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TUXTLA GUTIERREZ,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TUZANTAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TUZANTAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,TZIMOL,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,TZIMOL,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,UNION JUAREZ,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,UNION JUAREZ,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,VENUSTIANO CARRANZA,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,VENUSTIANO CARRANZA,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,VILLA COMALTITLAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,VILLA COMALTITLAN,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,VILLA CORZO,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,VILLA CORZO,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,VILLAFLORES,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,VILLAFLORES,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,YAJALON,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,YAJALON,SURESTE,3.62
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Fijo,$/mes,CHIAPAS,ZINACANTAN,SURESTE,58.51
+PDBT,Pequeña demanda baja tensión hasta 25 kW-mes,Variable (Energía),$/kWh,CHIAPAS,ZINACANTAN,SURESTE,3.62
