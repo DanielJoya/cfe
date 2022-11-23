@@ -119,7 +119,9 @@ for month in months[lastMonthIndex:]:
                         divisionPrices["Municipio"] = town
                         divisionPrices["Division"] = division
 
-                        prices = pd.concat([prices, divisionPrices], ignore_index=True)
+                        prices = pd.concat(
+                            [prices, divisionPrices], axis=0, ignore_index=True
+                        )
 
                     else:
                         fixedPrice = divisionPrices.loc[0, month]
