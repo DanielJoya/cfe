@@ -110,20 +110,19 @@ for month in months[lastMonthIndex:]:
                         ).get_attribute("outerHTML")
                     )[0]
 
-                    divisionPrices[month] = table.iloc[:, -1]
-
                     if month == months[0]:
 
                         divisionPrices = table.iloc[:, :4]
                         divisionPrices["Estado"] = state
                         divisionPrices["Municipio"] = town
                         divisionPrices["Division"] = division
+                        divisionPrices[month] = table.iloc[:, -1]
 
                         prices = pd.concat(
                             [prices, divisionPrices], axis=0, ignore_index=True
                         )
-
                     else:
+                        divisionPrices = table.iloc[:, :4]
                         fixedPrice = divisionPrices.loc[0, month]
                         variablePrice = divisionPrices.loc[1, month]
                         prices.loc[
