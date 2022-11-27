@@ -33,37 +33,43 @@ select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
 select_month = Select(select_element)
 months = GetDataFromSelect(select_month)
 
+# Get states
+select_element = driver.find_element(By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddEstado")
+select_state = Select(select_element)
+states = GetDataFromSelect(select_state)
+
 # Reading saved data
 try:
     prices = pd.read_csv("pdbt.csv")
     lastMonth = prices.columns[-1]
     lastMonthIndex = months.index(lastMonth)
+    lastMonthData = prices[prices[lastMonth].notnull()]
+    lastState = lastMonthData["Estado"].iloc[-1]
+    lastStateIndex = states.index(lastState)
 
 except:
     prices = pd.DataFrame()
+    lastMonth = months[0]
     lastMonthIndex = 0
+    lastState = states[0]
+    lastStateIndex = -1
 
-# Scrape only if the last month has not been extracted
+if lastState == states[-1]:
+    lastMonthIndex = lastMonthIndex + 1
 
-for month in months[lastMonthIndex:]:
-    # Get states
-    select_element = driver.find_element(
-        By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddEstado"
-    )
-    select_state = Select(select_element)
-    states = GetDataFromSelect(select_state)
+#%% Scrape only if the last month has not been extracted
 
-    lastState = prices["Estado"].iloc[-1]
-    lastStateIndex = states.index(lastState)
+if not ((lastState == states[-1]) & (lastMonth == months[-1])):
 
-    #% Select month
-    select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
-    select_month = Select(select_element)
-    select_month.select_by_visible_text(month)
+    for month in months[lastMonthIndex:]:
 
-    monthPrices = pd.DataFrame()
+        if lastState == states[-1]:
+            lastStateIndex = -1
 
-    if lastState != states[-1]:
+        #% Select month
+        select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
+        select_month = Select(select_element)
+        select_month.select_by_visible_text(month)
 
         for state in states[lastStateIndex + 1 :]:
             select_element = driver.find_element(
@@ -122,14 +128,14 @@ for month in months[lastMonthIndex:]:
                             [prices, divisionPrices], axis=0, ignore_index=True
                         )
                     else:
-                        divisionPrices = table.iloc[:, :4]
+                        divisionPrices[month] = table.iloc[:, -1]
                         fixedPrice = divisionPrices.loc[0, month]
                         variablePrice = divisionPrices.loc[1, month]
                         prices.loc[
                             (prices["Estado"] == state)
                             & (prices["Municipio"] == town)
                             & (prices["Division"] == division)
-                            & (prices["Cargo"] == "fijo"),
+                            & (prices["Cargo"] == "Fijo"),
                             month,
                         ] = fixedPrice
                         prices.loc[
@@ -140,5 +146,3 @@ for month in months[lastMonthIndex:]:
                             month,
                         ] = variablePrice
             prices.to_csv("pdbt.csv", index=False)
-
-# %%
