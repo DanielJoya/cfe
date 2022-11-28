@@ -56,15 +56,13 @@ except:
 
 if lastState == states[-1]:
     lastMonthIndex = lastMonthIndex + 1
+    lastStateIndex = -1
 
 #%% Scrape only if the last month has not been extracted
 
 if not ((lastState == states[-1]) & (lastMonth == months[-1])):
 
     for month in months[lastMonthIndex:]:
-
-        if lastState == states[-1]:
-            lastStateIndex = -1
 
         #% Select month
         select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
@@ -146,3 +144,6 @@ if not ((lastState == states[-1]) & (lastMonth == months[-1])):
                             month,
                         ] = variablePrice
             prices.to_csv("pdbt.csv", index=False)
+        lastStateIndex = -1
+
+# %%
