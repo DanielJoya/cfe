@@ -129,6 +129,13 @@ if not ((lastState == states[-1]) & (lastMonth == months[-1])):
                         divisionPrices[month] = table.iloc[:, -1]
                         fixedPrice = divisionPrices.loc[0, month]
                         variablePrice = divisionPrices.loc[1, month]
+
+                        # Delete from here
+                        # divisionPrices2 = pd.DataFrame()
+                        # divisionPrices2[month] = table.iloc[:, -3]
+                        # variablePrice = divisionPrices2.loc[2, month]
+                        # to here
+
                         prices.loc[
                             (prices["Estado"] == state)
                             & (prices["Municipio"] == town)
