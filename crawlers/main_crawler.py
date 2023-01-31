@@ -33,6 +33,7 @@ def main_crawler(link, tariff):
     select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
     select_month = Select(select_element)
     months = GetDataFromSelect(select_month)
+    months.pop(-1)
 
     # Get states
     select_element = driver.find_element(
@@ -63,7 +64,7 @@ def main_crawler(link, tariff):
 
     #%% Scrape only if the last month has not been extracted
 
-    if not ((lastState == states[-1]) & (lastMonth == months[-1])):
+    if not (((lastState == states[-1]) & (lastMonth == months[-1]))):
 
         for month in months[lastMonthIndex:]:
 
