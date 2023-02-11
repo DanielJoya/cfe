@@ -1,4 +1,3 @@
-#%% Get data from page
 # Third party libraries
 import pandas as pd
 from selenium import webdriver
@@ -9,13 +8,55 @@ from selenium.webdriver.support.select import Select  # Supports dropdown select
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Local imports
-from .crawler_utils import GetDataFromSelect
+from .crawler_utils import GetDataFromSelect, select_option
 
 
-def main_crawler(link, tariff):
+def main_crawler(link, tariff, ids):
 
     file_name = tariff + ".csv"
 
+    driver = driver_initialization(link)
+
+    years = GetDataFromSelect(driver, ids["year"])
+
+    months = GetDataFromSelect(driver, ids["month"], 0)
+    months.pop(-1)  # Always remove the last month since there is no data available
+
+    states = GetDataFromSelect(driver, ids["state"], 0)
+
+    prices, lastState, lastMonth, lastMonthIndex, lastStateIndex = data_initialization(
+        file_name, months, states
+    )  # Initialize data
+
+    if not (((lastState == states[-1]) & (lastMonth == months[-1]))):
+
+        for month in months[lastMonthIndex:]:
+
+            select_option(driver, ids["month"], month)
+
+            for state in states[lastStateIndex + 1 :]:
+
+                select_option(driver, ids["state"], state)
+
+                towns = GetDataFromSelect(driver, ids["town"], 0)
+
+                for town in towns:
+                    select_option(driver, ids["town"], town)
+
+                    # Get divisions
+                    divisions = GetDataFromSelect(driver, ids["division"], 0)
+
+                    for division in divisions:
+                        select_option(driver, ids["division"], division)
+                        prices = extract_data(
+                            driver, ids, months, month, state, town, division, prices
+                        )
+
+                prices.to_csv(file_name, index=False)
+            lastStateIndex = -1
+
+
+def driver_initialization(link):
     # Initial request
     options = Options()
     options.add_experimental_option(
@@ -29,20 +70,10 @@ def main_crawler(link, tariff):
 
     driver.get(link)
 
-    # Get months
-    select_element = driver.find_element(By.ID, "ContentPlaceHolder1_Fecha2_ddMes")
-    select_month = Select(select_element)
-    months = GetDataFromSelect(select_month)
-    months.pop(-1)
+    return driver
 
-    # Get states
-    select_element = driver.find_element(
-        By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddEstado"
-    )
-    select_state = Select(select_element)
-    states = GetDataFromSelect(select_state)
 
-    # Reading saved data
+def data_initialization(file_name, months, states):
     try:
         prices = pd.read_csv(file_name)
         lastMonth = prices.columns[-1]
@@ -62,99 +93,46 @@ def main_crawler(link, tariff):
         lastMonthIndex = lastMonthIndex + 1
         lastStateIndex = -1
 
-    #%% Scrape only if the last month has not been extracted
+    return prices, lastState, lastMonth, lastMonthIndex, lastStateIndex
 
-    if not (((lastState == states[-1]) & (lastMonth == months[-1]))):
 
-        for month in months[lastMonthIndex:]:
+def extract_data(driver, ids, months, month, state, town, division, prices):
+    divisionPrices = pd.DataFrame()
 
-            #% Select month
-            select_element = driver.find_element(
-                By.ID, "ContentPlaceHolder1_Fecha2_ddMes"
-            )
-            select_month = Select(select_element)
-            select_month.select_by_visible_text(month)
+    table = pd.read_html(
+        driver.find_element(
+            By.XPATH,
+            ids["table"],
+        ).get_attribute("outerHTML")
+    )[0]
 
-            for state in states[lastStateIndex + 1 :]:
-                select_element = driver.find_element(
-                    By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddEstado"
-                )
-                select_state = Select(select_element)
-                select_state.select_by_visible_text(state)
+    if month == months[0]:
 
-                # Get towns
-                select_element = driver.find_element(
-                    By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddMunicipio"
-                )
-                select_town = Select(select_element)
-                towns = GetDataFromSelect(select_town)
+        divisionPrices = table.iloc[:, :4]
+        divisionPrices["Estado"] = state
+        divisionPrices["Municipio"] = town
+        divisionPrices["Division"] = division
+        divisionPrices[month] = table.iloc[:, -1]
 
-                for town in towns:
-                    select_element = driver.find_element(
-                        By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddMunicipio"
-                    )
-                    select_town = Select(select_element)
-                    select_town.select_by_visible_text(town)
+        prices = pd.concat([prices, divisionPrices], axis=0, ignore_index=True)
+    else:
+        divisionPrices[month] = table.iloc[:, -1]
+        fixedPrice = divisionPrices.loc[0, month]
+        variablePrice = divisionPrices.loc[1, month]
 
-                    # Get divisions
-                    select_element = driver.find_element(
-                        By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddDivision"
-                    )
-                    select_division = Select(select_element)
-                    divisions = GetDataFromSelect(select_division)
+        prices.loc[
+            (prices["Estado"] == state)
+            & (prices["Municipio"] == town)
+            & (prices["Division"] == division)
+            & (prices["Cargo"] == "Fijo"),
+            month,
+        ] = fixedPrice
+        prices.loc[
+            (prices["Estado"] == state)
+            & (prices["Municipio"] == town)
+            & (prices["Division"] == division)
+            & (prices["Cargo"] == "Variable (Energía)"),
+            month,
+        ] = variablePrice
 
-                    for division in divisions:
-                        select_element = driver.find_element(
-                            By.ID, "ContentPlaceHolder1_EdoMpoDiv_ddDivision"
-                        )
-                        select_division = Select(select_element)
-                        select_division.select_by_visible_text(division)
-
-                        # Extract data
-                        divisionPrices = pd.DataFrame()
-
-                        table = pd.read_html(
-                            driver.find_element(
-                                By.XPATH,
-                                '//*[@id="content"]/div/div[1]/div[2]/table[1]/tbody/tr[8]/td/table/tbody/tr[2]/td/table',
-                            ).get_attribute("outerHTML")
-                        )[0]
-
-                        if month == months[0]:
-
-                            divisionPrices = table.iloc[:, :4]
-                            divisionPrices["Estado"] = state
-                            divisionPrices["Municipio"] = town
-                            divisionPrices["Division"] = division
-                            divisionPrices[month] = table.iloc[:, -1]
-
-                            prices = pd.concat(
-                                [prices, divisionPrices], axis=0, ignore_index=True
-                            )
-                        else:
-                            divisionPrices[month] = table.iloc[:, -1]
-                            fixedPrice = divisionPrices.loc[0, month]
-                            variablePrice = divisionPrices.loc[1, month]
-
-                            # Delete from here
-                            # divisionPrices2 = pd.DataFrame()
-                            # divisionPrices2[month] = table.iloc[:, -3]
-                            # variablePrice = divisionPrices2.loc[2, month]
-                            # to here
-
-                            prices.loc[
-                                (prices["Estado"] == state)
-                                & (prices["Municipio"] == town)
-                                & (prices["Division"] == division)
-                                & (prices["Cargo"] == "Fijo"),
-                                month,
-                            ] = fixedPrice
-                            prices.loc[
-                                (prices["Estado"] == state)
-                                & (prices["Municipio"] == town)
-                                & (prices["Division"] == division)
-                                & (prices["Cargo"] == "Variable (Energía)"),
-                                month,
-                            ] = variablePrice
-                prices.to_csv(file_name, index=False)
-            lastStateIndex = -1
+    return prices
