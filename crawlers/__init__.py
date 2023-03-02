@@ -1,1 +1,1 @@
-from .main_crawler import main_crawler
+from .get_prices import get_prices

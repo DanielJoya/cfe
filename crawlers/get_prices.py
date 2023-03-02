@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from .crawler_utils import GetDataFromSelect, select_option
 
 
-def main_crawler(link, tariff, ids):
+def get_prices(link, tariff, ids):
 
     file_name = tariff + ".csv"
 
